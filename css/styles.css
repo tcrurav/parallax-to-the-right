@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 500vh;
+  /* scrollbar-gutter: stable both-sides; */
+  overflow-x: hidden;
+}
+
+.image-container {
+  position: relative;
+  width: 100vw;
+  height: 60vw;
+  /* overflow: hidden; */
+}
+
+.image-container img {
+  position: absolute;
+  width: 100%;
+}
